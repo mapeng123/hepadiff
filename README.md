@@ -28,7 +28,7 @@ The trained checkpoint is too large for git hosting and is distributed separatel
 
 | File | Size | Where to get |
 |---|---|---|
-| `hepadiff_step200000.pt` | ~276 MB | [Zenodo link — upon publication] |
+| `hepadiff_step200000.pt` | ~276 MB | https://github.com/mapeng123/hepadiff/releases/download/v0.1.0/hepadiff_step200000.pt (GitHub Release v0.1.0) |
 
 Download it and place it in your working directory (the CLI looks for
 `./hepadiff_step200000.pt` by default), or pass `--ckpt <path>`.
