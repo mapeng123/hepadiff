@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hepadiff"
+version = "0.1.0"
+description = "HepaDiff — perturbation-conditioned masked discrete diffusion for virtual liver tissue (single-cell transcriptome generation, zero-shot gene knockout, in-library compound screening)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "torch>=2.0",
+    "numpy",
+    "pandas",
+]
+
+[project.scripts]
+hepadiff = "hepadiff.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hepadiff*"]
+
+[tool.setuptools.package-data]
+hepadiff = ["data/*.npz", "data/*.npy", "data/*.txt"]

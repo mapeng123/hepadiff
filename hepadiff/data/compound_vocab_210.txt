@@ -1,0 +1,210 @@
+(+)-JQ1
+2-Methoxyestradiol (2-MeOE2)
+A-366
+ABT-737
+AC480 (BMS-599626)
+AG-14361
+AG-490 (Tyrphostin B42)
+AICAR (Acadesine)
+AMG-900
+AR-42
+AT9283
+AZ 960
+AZD1480
+AZD5591
+Abexinostat (PCI-24781)
+Afatinib
+Alendronate sodium trihydrate
+Alisertib (MLN8237)
+Altretamine
+Alvespimycin (17-DMAG) HCl
+Aminoglutethimide 
+Amisulpride
+Anacardic Acid
+Andarine
+Aurora A Inhibitor I
+Avagacestat (BMS-708163)
+Azacitidine 
+BMS
+BMS-265246
+BMS-536924
+BMS-754807
+BMS-911543
+BRD3379
+BRD4770
+Barasertib (AZD1152-HQPA)
+Baricitinib (LY3009104, INCB028050)
+Belinostat (PXD101)
+Bisindolylmaleimide IX (Ro 31-8220 Mesylate)
+Bortezomib
+Bosutinib (SKI-606)
+Busulfan 
+CEP-33779
+CUDC-101
+CUDC-907
+CYC116
+Capecitabine 
+Carmofur
+Cediranib (AZD2171)
+Celecoxib
+Cerdulatinib (PRT062070, PRT2070)
+Cimetidine 
+Clevudine 
+Costunolide
+Crizotinib (PF-02341066)
+Curcumin
+Cyclocytidine HCl
+Dabrafenib
+Dacinostat (LAQ824)
+Danusertib (PHA-739358)
+Daphnetin
+Dasatinib
+Decitabine
+Dex
+Disulfiram 
+Divalproex Sodium
+Droxinostat
+EED226
+ENMD-2076
+ENMD-2076 L-(+)-Tartaric acid 
+Ellagic acid
+Entacapone
+Entinostat (MS-275)
+Enzastaurin (LY317615)
+Epothilone A
+Everolimus
+FLLL32
+Fasudil (HA-1077) HCl
+Fedratinib (SAR302503, TG101348)
+Filgotinib (GLPG0634)
+Flavopiridol HCl
+Fluorouracil (5-Fluoracil, 5-FU)
+Fulvestrant
+G007-LK
+GSK J1
+GSK-LSD1 2HCl
+GSK1070916
+Gandotinib (LY2784544)
+Gemcitabine
+Givinostat (ITF2357)
+Glesatinib?(MGCD265)
+Hesperadin
+INO-1001 (3-Aminobenzamide)
+IOX2
+ITSA-1 (ITSA1)
+Idasanutlin
+Iniparib (BSI-201)
+Ivosidenib (AG-120)
+JNJ-26854165 (Serdemetan)
+JNJ-7706621
+JQ1
+KW-2449
+Ki16425
+Ki8751
+Lapatinib (GW-572016) Ditosylate
+Lenalidomide (CC-5013)
+Linifanib (ABT-869)
+Lomustine 
+Luminespib (AUY-922, NVP-AUY922)
+M344
+MC1568
+MK-0752
+MK-5108 (VX-689)
+MLN8054
+Maraviroc
+Meprednisone
+Mercaptopurine (6-MP)
+Mesna 
+Mocetinostat (MGCD0103)
+Momelotinib (CYT387)
+Motesanib Diphosphate (AMG-706)
+NVP-BSK805 2HCl
+Navitoclax
+Navitoclax (ABT-263)
+Nilotinib (AMN-107)
+Nintedanib (BIBF 1120)
+Nutlin
+Obatoclax Mesylate (GX15-070)
+Ofloxacin
+PCI-34051
+PD173074
+PD98059
+PF-3845
+PF-573228
+PFI-1 (PF-6405761)
+PHA-680632
+PJ34
+Panobinostat (LBH589)
+Patupilone (EPO906, Epothilone B)
+Pelitinib (EKB-569)
+Pirarubicin
+Pracinostat (SB939)
+Prednisone 
+Prexasertib
+Quercetin
+Quisinostat (JNJ-26481585) 2HCl
+RG108
+Raltitrexed
+Ramelteon
+Regorafenib (BAY 73-4506)
+Resminostat
+Resveratrol
+Rigosertib (ON-01910)
+Roscovitine (Seliciclib,CYC202)
+Roxadustat (FG-4592)
+Rucaparib (AG-014699,PF-01367338) phosphate
+Ruxolitinib (INCB018424)
+S-Ruxolitinib (INCB018424)
+S3I-201
+SAHA
+SB431542
+SGI-1776 free base
+SL-327
+SNS-314
+SRT1720 HCl
+SRT2104 (GSK2245840)
+SRT3025 HCl
+Selisistat (EX 527)
+Sirtinol
+Sodium Phenylbutyrate
+Sorafenib Tosylate
+Streptozotocin (STZ)
+TAK-901
+TG101209
+TGX-221
+TMP195
+Tacedinaline (CI994)
+Tanespimycin (17-AAG)
+Taselisib
+Tazemetostat (EPZ-6438)
+Temsirolimus (CCI-779, NSC 683864)
+Thalidomide
+Thiotepa
+Tie2 kinase inhibitor
+Tofacitinib (CP-690550) Citrate
+Toremifene Citrate
+Tozasertib (VX-680, MK-0457)
+Trametinib
+Trametinib (GSK1120212)
+Tranylcypromine (2-PCPA) HCl
+Triamcinolone Acetonide
+Trichostatin A (TSA)
+Tubastatin A HCl
+Tucidinostat (Chidamide)
+UNC0379
+UNC0631
+UNC1999
+Valproic acid sodium salt (Sodium valproate)
+Vandetanib (ZD6474)
+Veliparib (ABT-888)
+WHI-P154
+WP1066
+XAV-939
+YM155 (Sepantronium Bromide)
+ZM 447439
+Zileuton
+nan
+sgGPX4-1
+sgGPX4-2
+sgLACZ
+sgOR2J2

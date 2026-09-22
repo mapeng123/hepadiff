@@ -1,0 +1,15 @@
+name: hepadiff
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.3
+  - pytorch-cuda=12.1
+  - numpy
+  - pandas
+  - scipy
+  - pip
+  - pip:
+      - anndata

@@ -1,0 +1,16 @@
+# model checkpoint — too large for GitHub, distributed separately (see README)
+*.pt
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# local outputs
+hepadiff_out*
+*_cells.npz
+*_delta.csv
+!.gitkeep
