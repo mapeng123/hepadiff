@@ -11,7 +11,7 @@
 | `compound_perturbation` | 210 个库内化合物扰动 |
 | `generate_condition` | 疾病状态（NASH/MASH、纤维化、HCC 等 26 种）细胞生成 |
 | `query_drug_target` | ChEMBL 靶点/作用类型/IC50 查询（库外化合物走靶点 KO 路径） |
-| `list_cell_types` | 8 种有健康参考的主要肝细胞类型 |
+| `list_cell_types` | 22 种有健康参考的肝脏细胞类型 |
 | `list_compounds` | 210 个库内化合物清单 |
 | `server_info` | 模型版本、语料规模、能力边界 |
 

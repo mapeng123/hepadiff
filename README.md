@@ -38,9 +38,9 @@ The healthy-reference atlas (`hepadiff_reference.npz`) and expression bin edges
 
 ## Quick start
 
-List the 8 cell types with a healthy reference (hepatocyte, three zoned hepatocyte
-subpopulations, hepatic stellate cell, Kupffer cell, cholangiocyte, and liver sinusoidal
-endothelial cell) and the 210 in-library compounds:
+List the 22 cell types with a healthy reference (hepatocyte, three zoned hepatocyte
+subpopulations, hepatic stellate cell, Kupffer cell, cholangiocyte, liver sinusoidal
+endothelial cell, and 14 additional immune/stromal types) and the 210 in-library compounds:
 
 ```bash
 hepadiff infer --list-cells
@@ -85,6 +85,14 @@ see `python -m hepadiff.cli infer --help` from a source checkout.
   perturbation library. For a compound outside the library, use `--ko <target gene>`
   as a target-based proxy.
 - Generation of 2,000 cells takes ~1 minute on a single GPU (also runs on CPU, slower).
+
+## Conversational agent & benchmark
+
+The `agent/` directory wraps the inference engine as a tool server for LLM agents
+(MCP for Kimi-class assistants, OpenAPI for GPT-class custom agents); see
+`agent/README.md` for setup. `agent/liverbench.csv` contains LiverBench, 200
+hepatology mechanism questions with literature-grounded gold answers, expected tool
+chains, and per-question agent results.
 
 ## Citation
 
