@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hepadiff"
-version = "0.1.0"
-description = "HepaDiff — perturbation-conditioned masked discrete diffusion for virtual liver tissue (single-cell transcriptome generation, zero-shot gene knockout, in-library compound screening)"
+version = "0.2.0"
+description = "HepaDiff — perturbation-conditioned masked discrete diffusion for virtual-liver generation and mechanism analysis"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 dependencies = [
     "torch>=2.0",

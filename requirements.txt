@@ -1,0 +1,12 @@
+torch>=2.0
+numpy
+pandas
+scipy
+scikit-learn
+anndata
+transformers
+rdkit
+fastapi
+uvicorn
+requests
+openpyxl

@@ -1,0 +1,3721 @@
+[
+ {
+  "id": "KO-PNPLA3",
+  "category": "knockout_mechanism",
+  "question": "What happens to lipid handling in hepatocytes if PNPLA3 is knocked out?",
+  "gold_answer": "PNPLA3 loss remodels hepatocyte neutral-lipid turnover; the I148M risk variant causes triglyceride accumulation.",
+  "gold_source": "Romeo 2008 Nat Genet",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=PNPLA3 trained"
+ },
+ {
+  "id": "KO-INSIG1",
+  "category": "knockout_mechanism",
+  "question": "What is the effect of INSIG1 loss in hepatocytes?",
+  "gold_answer": "Loss of INSIG1 releases SREBP retention, activating cholesterol/lipid synthesis genes.",
+  "gold_source": "Brown & Goldstein",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=INSIG1 trained"
+ },
+ {
+  "id": "KO-PPARD",
+  "category": "knockout_mechanism",
+  "question": "Predict the effect of PPARD knockout in hepatocytes.",
+  "gold_answer": "PPARdelta supports fatty-acid catabolism and glucose-lipid cross-talk.",
+  "gold_source": "Lee 2006",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=PPARD trained"
+ },
+ {
+  "id": "KO-HNF4A",
+  "category": "knockout_mechanism",
+  "question": "What is the effect of HNF4A loss in hepatocytes?",
+  "gold_answer": "Loss of hepatocyte identity: reduced albumin and metabolic-enzyme expression.",
+  "gold_source": "Hayhurst 2001",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=HNF4A trained"
+ },
+ {
+  "id": "KO-HNF1A",
+  "category": "knockout_mechanism",
+  "question": "What happens when HNF1A is knocked out?",
+  "gold_answer": "Impaired hepatocyte metabolic gene expression; MODY3 gene.",
+  "gold_source": "Pontoglio 1996",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=HNF1A trained"
+ },
+ {
+  "id": "KO-LDLR",
+  "category": "knockout_mechanism",
+  "question": "Predict the effect of LDLR knockout in hepatocytes.",
+  "gold_answer": "LDL clearance blocked; compensatory SREBF2 activation (familial hypercholesterolemia).",
+  "gold_source": "Goldstein & Brown 2009",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=LDLR trained"
+ },
+ {
+  "id": "KO-PCSK9",
+  "category": "knockout_mechanism",
+  "question": "What happens when PCSK9 is knocked out in hepatocytes?",
+  "gold_answer": "LDLR protein stabilized; lower LDL-C (anti-PCSK9 drug rationale).",
+  "gold_source": "Abifadel 2003 Nat Genet",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=PCSK9 trained"
+ },
+ {
+  "id": "KO-MBOAT7",
+  "category": "knockout_mechanism",
+  "question": "Where and how does MBOAT7 act in the liver?",
+  "gold_answer": "Phosphatidylinositol remodelling in hepatocytes; MASLD risk locus.",
+  "gold_source": "Mancina 2016 Nat Genet",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=MBOAT7 trained"
+ },
+ {
+  "id": "KO-TRIB1",
+  "category": "knockout_mechanism",
+  "question": "TRIB1 locus: function in hepatocytes?",
+  "gold_answer": "Regulates lipogenesis via C/EBP degradation; GWAS lipid locus.",
+  "gold_source": "Burkhardt 2010",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=TRIB1 trained"
+ },
+ {
+  "id": "KO-HAMP",
+  "category": "knockout_mechanism",
+  "question": "What does HAMP (hepcidin) knockout do?",
+  "gold_answer": "Loss of systemic iron regulator; iron overload.",
+  "gold_source": "Nicolas 2001 PNAS",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=HAMP trained"
+ },
+ {
+  "id": "KO-APOE",
+  "category": "knockout_mechanism",
+  "question": "What does APOE loss do in the liver?",
+  "gold_answer": "Impaired remnant lipoprotein clearance; dyslipidemia.",
+  "gold_source": "Mahley 1988",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=APOE trained"
+ },
+ {
+  "id": "KO-LPL",
+  "category": "knockout_mechanism",
+  "question": "What does lipoprotein lipase do in liver macrophages?",
+  "gold_answer": "Triglyceride-rich lipoprotein hydrolysis at endothelium.",
+  "gold_source": "Goldberg 1996",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=LPL trained"
+ },
+ {
+  "id": "KO-ATP7B",
+  "category": "knockout_mechanism",
+  "question": "What does ATP7B knockout cause (Wilson disease)?",
+  "gold_answer": "Copper excretion failure; hepatic copper accumulation.",
+  "gold_source": "Bull 1993 Nat Genet",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=ATP7B trained"
+ },
+ {
+  "id": "KO-PYGL",
+  "category": "knockout_mechanism",
+  "question": "What does liver glycogen phosphorylase (PYGL) knockout do?",
+  "gold_answer": "Glycogenolysis blocked (Hers disease).",
+  "gold_source": "Burwinkel 1998",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=PYGL trained"
+ },
+ {
+  "id": "KO-FASN",
+  "category": "knockout_mechanism",
+  "question": "What happens when FASN is knocked out in hepatocytes?",
+  "gold_answer": "De novo lipogenesis blocked.",
+  "gold_source": "Chakravarthy 2005 Cell Metab",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=FASN trained"
+ },
+ {
+  "id": "KO-ACACA",
+  "category": "knockout_mechanism",
+  "question": "Predict the effect of ACACA (ACC1) knockout.",
+  "gold_answer": "Malonyl-CoA absent; lipogenesis down, FA oxidation up.",
+  "gold_source": "Mao 2006 PNAS",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=ACACA trained"
+ },
+ {
+  "id": "KO-DGAT2",
+  "category": "knockout_mechanism",
+  "question": "What does DGAT2 knockout do in hepatocytes?",
+  "gold_answer": "Final TG synthesis step blocked; reduced steatosis.",
+  "gold_source": "Stone 2004 JBC",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=DGAT2 trained"
+ },
+ {
+  "id": "KO-ELOVL6",
+  "category": "knockout_mechanism",
+  "question": "What is the role of ELOVL6 in liver?",
+  "gold_answer": "Long-chain fatty-acid elongation; SREBP1 target.",
+  "gold_source": "Matsuzaka 2007",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=ELOVL6 trained"
+ },
+ {
+  "id": "KO-MLXIPL",
+  "category": "knockout_mechanism",
+  "question": "What does ChREBP (MLXIPL) control?",
+  "gold_answer": "Glucose-responsive lipogenesis; loss reduces FASN/ACACA induction.",
+  "gold_source": "Iizuka 2004 PNAS",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=MLXIPL trained"
+ },
+ {
+  "id": "KO-XBP1",
+  "category": "knockout_mechanism",
+  "question": "What happens when XBP1 is lost in hepatocytes?",
+  "gold_answer": "UPR/spliced-XBP1 lipogenic program lost; ER-stress handling impaired.",
+  "gold_source": "Lee 2008 Science",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=XBP1 trained"
+ },
+ {
+  "id": "KO-ATF6",
+  "category": "knockout_mechanism",
+  "question": "What does ATF6 knockout do?",
+  "gold_answer": "ER unfolded-protein response arm lost.",
+  "gold_source": "Yamamoto 2007",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=ATF6 trained"
+ },
+ {
+  "id": "KO-EIF2AK3",
+  "category": "knockout_mechanism",
+  "question": "What is the role of PERK (EIF2AK3) in hepatocytes?",
+  "gold_answer": "Translational attenuation arm of UPR; loss sensitizes to ER stress.",
+  "gold_source": "Harding 2000",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=EIF2AK3 trained"
+ },
+ {
+  "id": "KO-NFE2L2",
+  "category": "knockout_mechanism",
+  "question": "What does NRF2 (NFE2L2) protect against?",
+  "gold_answer": "Antioxidant response; loss raises oxidative injury susceptibility.",
+  "gold_source": "Itoh 1997",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=NFE2L2 trained"
+ },
+ {
+  "id": "KO-RELA",
+  "category": "knockout_mechanism",
+  "question": "What happens when RelA (RELA) is knocked out in Kupffer cells?",
+  "gold_answer": "NF-kB inflammatory program blunted (TNF, IL1B, chemokines).",
+  "gold_source": "benzbromarone report, this study",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=RELA trained"
+ },
+ {
+  "id": "KO-RXRA",
+  "category": "knockout_mechanism",
+  "question": "What is the role of RXRA in hepatocytes?",
+  "gold_answer": "Common heterodimer partner of FXR/PPAR/LXR; broad metabolic defects.",
+  "gold_source": "Wan 2000 Mol Cell Biol",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=RXRA trained"
+ },
+ {
+  "id": "KO-VDR",
+  "category": "knockout_mechanism",
+  "question": "What does vitamin D receptor do in the liver?",
+  "gold_answer": "Modulates bile-acid detoxification and stellate activation.",
+  "gold_source": "Ding 2013 JCI",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=VDR trained"
+ },
+ {
+  "id": "KO-RORA",
+  "category": "knockout_mechanism",
+  "question": "What is RORA's role in hepatocytes?",
+  "gold_answer": "Circadian-metabolic coupling of lipid metabolism.",
+  "gold_source": "Lau 2008",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=RORA trained"
+ },
+ {
+  "id": "KO-NR3C1",
+  "category": "knockout_mechanism",
+  "question": "What does glucocorticoid receptor (NR3C1) loss do in liver?",
+  "gold_answer": "Fasting gluconeogenesis blunted (PCK1, G6PC not induced).",
+  "gold_source": "Opherk 2004",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=NR3C1 trained"
+ },
+ {
+  "id": "CB-KO-THRB",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if THRB is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: THRB is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-HMGCR",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if HMGCR is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: HMGCR is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-CYP2E1",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if CYP2E1 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: CYP2E1 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-SREBF2",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if SREBF2 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: SREBF2 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-SREBF1",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if SREBF1 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: SREBF1 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-APOB",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if APOB is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: APOB is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-MTTP",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if MTTP is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: MTTP is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-NR1H4",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if NR1H4 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: NR1H4 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-NR0B2",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if NR0B2 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: NR0B2 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-PPARA",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if PPARA is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: PPARA is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-PPARG",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if PPARG is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: PPARG is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-GCK",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if GCK is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: GCK is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-GCKR",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if GCKR is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: GCKR is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-TM6SF2",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if TM6SF2 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: TM6SF2 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-HSD17B13",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if HSD17B13 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: HSD17B13 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-GPAM",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if GPAM is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: GPAM is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-HFE",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if HFE is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: HFE is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-APOC3",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if APOC3 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: APOC3 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-ANGPTL3",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if ANGPTL3 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: ANGPTL3 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-ANGPTL8",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if ANGPTL8 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: ANGPTL8 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-ABCA1",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if ABCA1 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: ABCA1 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-ABCG5",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if ABCG5 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: ABCG5 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-ABCG8",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if ABCG8 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: ABCG8 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-ABCB11",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if ABCB11 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: ABCB11 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-ABCB4",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if ABCB4 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: ABCB4 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-CYP7A1",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if CYP7A1 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: CYP7A1 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-CYP8B1",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if CYP8B1 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: CYP8B1 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-CYP1A2",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if CYP1A2 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: CYP1A2 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-UGT1A1",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if UGT1A1 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: UGT1A1 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-NR1H3",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if NR1H3 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: NR1H3 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-FGFR4",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if FGFR4 is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: FGFR4 is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-KO-KLB",
+  "category": "capability_boundary",
+  "question": "What happens in hepatocytes if KLB is knocked out? Predict with the virtual liver.",
+  "gold_answer": "REFUSE/abstain: KLB is outside the model's trained perturbation vocabulary; the correct agent behavior is to state it cannot make a calibrated prediction for this gene rather than fabricate an answer.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-INS",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out INS in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: INS was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-KISS1",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out KISS1 in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: KISS1 was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-OPN1SW",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out OPN1SW in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: OPN1SW was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-MYH7",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out MYH7 in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: MYH7 was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-SST",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out SST in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: SST was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-POMC",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out POMC in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: POMC was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-GH1",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out GH1 in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: GH1 was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CB-UNSEEN-CALCA",
+  "category": "capability_boundary",
+  "question": "Use the virtual liver to predict the effect of knocking out CALCA in hepatocytes.",
+  "gold_answer": "REFUSE/abstain: CALCA was never trained; no calibrated prediction possible.",
+  "gold_source": "HepaDiff v4 documented capability scope (trained-gene vocabulary, this study Methods)",
+  "expected_tools": [
+   "knockout_refusal_check"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-001",
+  "category": "compound_dili",
+  "question": "What does valproate do to hepatocytes?",
+  "gold_answer": "Mitochondrial beta-oxidation inhibition; microvesicular steatosis.",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-002",
+  "category": "compound_dili",
+  "question": "What liver toxicity does busulfan cause?",
+  "gold_answer": "Sinusoidal obstruction syndrome (VOD); conditioning-regimen hepatotoxicity.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-003",
+  "category": "compound_dili",
+  "question": "What does gemcitabine do to the liver?",
+  "gold_answer": "Transaminitis, occasional SOS; nucleoside-analog toxicity.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-004",
+  "category": "compound_dili",
+  "question": "What is sorafenib's hepatic profile?",
+  "gold_answer": "Multikinase inhibitor; transaminase elevation, rare severe DILI; also HCC therapeutic.",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-005",
+  "category": "compound_dili",
+  "question": "What is regorafenib's liver risk?",
+  "gold_answer": "Black-box hepatotoxicity warning; severe liver injury reported.",
+  "gold_source": "FDA label; DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-006",
+  "category": "compound_dili",
+  "question": "What does dabrafenib do in the liver?",
+  "gold_answer": "BRAF inhibitor; mostly mild LFT elevation, pyrexia.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-007",
+  "category": "compound_dili",
+  "question": "What is trametinib's hepatic effect?",
+  "gold_answer": "MEK inhibitor; transaminase elevation with combination therapy.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-008",
+  "category": "compound_dili",
+  "question": "What liver injury does ofloxacin cause?",
+  "gold_answer": "Fluoroquinolone hepatocellular/cholestatic injury, rare.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-009",
+  "category": "compound_dili",
+  "question": "What does thalidomide do to the liver?",
+  "gold_answer": "Rare idiosyncratic DILI; known for teratogenicity.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-010",
+  "category": "compound_dili",
+  "question": "What is celecoxib's hepatic risk?",
+  "gold_answer": "COX-2 inhibitor; rare idiosyncratic hepatocellular injury.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-011",
+  "category": "compound_dili",
+  "question": "What does prednisone do to the liver?",
+  "gold_answer": "Corticosteroid; steatosis at high dose; rare idiosyncratic injury; used to TREAT AIH.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-012",
+  "category": "compound_dili",
+  "question": "What is cimetidine's hepatic profile?",
+  "gold_answer": "H2 blocker; rare mild hepatitis.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-013",
+  "category": "compound_dili",
+  "question": "What does clevudine do?",
+  "gold_answer": "Antiviral L-nucleoside for HBV; mitochondrial myopathy concern, liver relatively spared.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-014",
+  "category": "compound_dili",
+  "question": "What is baricitinib's mechanism and hepatic risk?",
+  "gold_answer": "JAK1/2 inhibitor; transaminase elevations dose-dependent.",
+  "gold_source": "label",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-015",
+  "category": "compound_dili",
+  "question": "What is ruxolitinib's mechanism?",
+  "gold_answer": "JAK1/2 inhibitor; used in myelofibrosis; LFT changes.",
+  "gold_source": "label",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-016",
+  "category": "compound_dili",
+  "question": "What is tofacitinib's mechanism?",
+  "gold_answer": "JAK3/JAK1 inhibitor; transaminase and lipid changes.",
+  "gold_source": "label",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-017",
+  "category": "compound_dili",
+  "question": "What does bortezomib do?",
+  "gold_answer": "Proteasome inhibitor; rare hepatic failure reports.",
+  "gold_source": "label",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-018",
+  "category": "compound_dili",
+  "question": "What is vorinostat (SAHA)?",
+  "gold_answer": "HDAC inhibitor; class-effect chromatin decompaction.",
+  "gold_source": "label",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-019",
+  "category": "compound_dili",
+  "question": "What is panobinostat?",
+  "gold_answer": "Pan-HDAC inhibitor; stronger chromatin effects.",
+  "gold_source": "label",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-020",
+  "category": "compound_dili",
+  "question": "What is belinostat?",
+  "gold_answer": "HDAC inhibitor for PTCL; mild LFT effects.",
+  "gold_source": "label",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-021",
+  "category": "compound_dili",
+  "question": "What is the mechanism of atorvastatin in hepatocytes?",
+  "gold_answer": "HMGCR inhibition -> SREBF2 feedback: LDLR up, cholesterol-synthesis enzymes up.",
+  "gold_source": "DILIrank (FDA/LiverTox), vDILI concern category",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-022",
+  "category": "compound_dili",
+  "question": "What is simvastatin's mechanism?",
+  "gold_answer": "HMGCR inhibition; same SREBF2 feedback axis as atorvastatin.",
+  "gold_source": "Goldstein & Brown",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-023",
+  "category": "compound_dili",
+  "question": "What is the mechanism of obeticholic acid?",
+  "gold_answer": "FXR agonism: CYP7A1 repression via SHP; bile-acid synthesis down. Agonist prediction weaker (boundary).",
+  "gold_source": "Pellicciari 2002",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-024",
+  "category": "compound_dili",
+  "question": "What is troglitazone's target and why was it withdrawn?",
+  "gold_answer": "PPARG agonist; withdrawn 2000 for idiosyncratic hepatotoxicity (off-target, boundary case).",
+  "gold_source": "Watkins 2005",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-025",
+  "category": "compound_dili",
+  "question": "What is fenofibrate's mechanism?",
+  "gold_answer": "PPARA agonism: fatty-acid oxidation up. Agonist prediction weaker (boundary).",
+  "gold_source": "Staels 1998",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-026",
+  "category": "compound_dili",
+  "question": "What does dexamethasone do in hepatocytes?",
+  "gold_answer": "GR agonism: gluconeogenesis up (PCK1), acute-phase modulation.",
+  "gold_source": "DILIrank (FDA/LiverTox), vDILI concern category",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-027",
+  "category": "compound_dili",
+  "question": "Is acetaminophen hepatotoxic and by what mechanism?",
+  "gold_answer": "Yes, dose-dependent zone-3 injury via CYP2E1-generated NAPQI; ON-TARGET COX annotation does NOT capture toxicity (boundary).",
+  "gold_source": "DILIrank (FDA/LiverTox), vDILI concern category",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-028",
+  "category": "compound_dili",
+  "question": "What is diclofenac's liver injury pattern?",
+  "gold_answer": "Hepatocellular DILI; mitochondrial/oxidative, off-target dominated (boundary).",
+  "gold_source": "Boelsterli 2003",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-029",
+  "category": "compound_dili",
+  "question": "Why was benzbromarone withdrawn and what does the model flag?",
+  "gold_answer": "Withdrawn 2003 (fatal hepatitis); model tier-3 warning: dose-window separation, Kupffer TNF/NF-kB and p53. Uricosuric target URAT1 does not explain hepatotoxicity (boundary).",
+  "gold_source": "DILIrank (FDA/LiverTox), vDILI concern category",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-030",
+  "category": "compound_dili",
+  "question": "What is bosentan's liver risk?",
+  "gold_answer": "Endothelin antagonist; dose-dependent transaminitis via BSEP inhibition (transporter, off-target for this model).",
+  "gold_source": "Fattinger 2001",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-031",
+  "category": "compound_dili",
+  "question": "What does methotrexate do to the liver?",
+  "gold_answer": "DHFR inhibition; chronic steatosis/fibrosis risk at cumulative dose.",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-032",
+  "category": "compound_dili",
+  "question": "What is azathioprine's hepatic risk?",
+  "gold_answer": "Purine synthesis inhibition; SOS/nodular regenerative hyperplasia.",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-033",
+  "category": "compound_dili",
+  "question": "What does allopurinol do?",
+  "gold_answer": "Xanthine-oxidase inhibition; rare hypersensitivity DILI (DRESS).",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-034",
+  "category": "compound_dili",
+  "question": "What is cyclosporine's hepatic effect?",
+  "gold_answer": "Calcineurin inhibitor (via cyclophilin); cholestasis, dose-dependent bilirubin.",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-035",
+  "category": "compound_dili",
+  "question": "What is dantrolene's liver risk?",
+  "gold_answer": "Ryanodine-receptor antagonist; idiosyncratic hepatocellular injury.",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-036",
+  "category": "compound_dili",
+  "question": "What is isoniazid's hepatotoxic mechanism?",
+  "gold_answer": "Metabolite-driven (hydrazine); target annotation (bacterial InhA) irrelevant to host (boundary).",
+  "gold_source": "Tostmann 2008",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-037",
+  "category": "compound_dili",
+  "question": "What does pyrazinamide do to the liver?",
+  "gold_answer": "Dose-dependent hepatocellular injury; mechanism unclear, target is mycobacterial (boundary).",
+  "gold_source": "DILIrank vLess",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-038",
+  "category": "compound_dili",
+  "question": "What is thioguanine's liver toxicity?",
+  "gold_answer": "SOS/nodular regenerative hyperplasia at chronic dosing.",
+  "gold_source": "DILIrank",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-039",
+  "category": "compound_dili",
+  "question": "Why does tolvaptan carry a liver warning?",
+  "gold_answer": "V2-receptor antagonist; idiosyncratic DILI in ADPKD trials (off-target, boundary).",
+  "gold_source": "Watkins 2015",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CD-040",
+  "category": "compound_dili",
+  "question": "What is tolcapone's hepatic story?",
+  "gold_answer": "COMT inhibitor; withdrawn/restricted for fulminant hepatitis.",
+  "gold_source": "DILIrank vMost",
+  "expected_tools": [
+   "compound_perturbation"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-001",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the PNPLA3 locus (MASLD/steatosis (I148M))?",
+  "gold_answer": "Hepatocyte lipid-droplet remodelling; strongest MASLD locus.",
+  "gold_source": "Romeo 2008",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-002",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the TM6SF2 locus (steatosis/lower LDL (E167K))?",
+  "gold_answer": "Hepatocyte VLDL lipidation.",
+  "gold_source": "Kozlitina 2014",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-003",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the MBOAT7 locus (MASLD (rs641738))?",
+  "gold_answer": "Hepatocyte phosphatidylinositol remodelling.",
+  "gold_source": "Mancina 2016",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-004",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the HSD17B13 locus (ALT/protection LOF)?",
+  "gold_answer": "Hepatocyte lipid-droplet retinol dehydrogenase.",
+  "gold_source": "Abul-Husn 2018",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-005",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the GCKR locus (TG/glucose (P446L))?",
+  "gold_answer": "Hepatocyte glucokinase regulation.",
+  "gold_source": "Sparso 2008",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-006",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the PPP1R3B locus (lipids/glycogen)?",
+  "gold_answer": "Hepatocyte glycogen-synthesis regulation.",
+  "gold_source": "Manning 2017",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-007",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the NCAN locus (lipids/steatosis)?",
+  "gold_answer": "Likely hepatocyte lipid handling (locus also near TM6SF2).",
+  "gold_source": "Speliotes 2011",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-008",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the LYPLAL1 locus (lipids)?",
+  "gold_answer": "Lysophospholipase; hepatocyte lipid metabolism.",
+  "gold_source": "Speliotes 2011",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-009",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the CILP2 locus (lipids)?",
+  "gold_answer": "Hepatic lipoprotein metabolism locus.",
+  "gold_source": "Teslovich 2010",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-010",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the FADS1 locus (fatty-acid desaturation)?",
+  "gold_answer": "Hepatocyte PUFA desaturation.",
+  "gold_source": "Tanaka 2009",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-011",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the SORT1 locus (LDL-C (1p13))?",
+  "gold_answer": "Hepatocyte LDL trafficking (SORT1/psortillin), strongest LDL locus.",
+  "gold_source": "Musunuru 2010",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-012",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the CELSR2 locus (LDL-C)?",
+  "gold_answer": "1p13 locus with SORT1; hepatocyte.",
+  "gold_source": "Kathiresan 2008",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-013",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the APOB locus (LDL-C)?",
+  "gold_answer": "Hepatocyte VLDL production.",
+  "gold_source": "Teslovich 2010",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-014",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the PCSK9 locus (LDL-C)?",
+  "gold_answer": "Hepatocyte LDLR degradation.",
+  "gold_source": "Abifadel 2003",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-015",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the LDLR locus (LDL-C)?",
+  "gold_answer": "Hepatocyte LDL clearance.",
+  "gold_source": "Goldstein & Brown",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-016",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the APOE locus (lipids/AD)?",
+  "gold_answer": "Hepatocyte + macrophage; liver is main source.",
+  "gold_source": "Mahley 1988",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-017",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the TRIB1 locus (lipids)?",
+  "gold_answer": "Hepatocyte lipogenesis via C/EBP.",
+  "gold_source": "Burkhardt 2010",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-018",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the GPAM locus (steatosis)?",
+  "gold_answer": "Hepatocyte TG synthesis.",
+  "gold_source": "MASLD GWAS",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-019",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the MTARC1 locus (MASLD protection)?",
+  "gold_answer": "MARC1 hepatocyte redox enzyme; NOT in 16,000-gene panel (agent should flag).",
+  "gold_source": "Emdin 2021",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-020",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the HFE locus (iron overload)?",
+  "gold_answer": "Hepatocyte hepcidin regulation.",
+  "gold_source": "Feder 1996",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-021",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the HAMP locus (iron homeostasis)?",
+  "gold_answer": "Hepcidin is hepatocyte-secreted.",
+  "gold_source": "Nicolas 2001",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-022",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the SERPINA1 locus (alpha-1 antitrypsin (Z allele))?",
+  "gold_answer": "Hepatocyte ER-storage disease; NOT in panel (agent should flag).",
+  "gold_source": "Lomas 1992",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-023",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the UGT1A1 locus (bilirubin (Gilbert))?",
+  "gold_answer": "Hepatocyte bilirubin conjugation.",
+  "gold_source": "Bosma 1995",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-024",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the ABCB11 locus (cholestasis (PFIC2))?",
+  "gold_answer": "Hepatocyte canalicular bile-acid export.",
+  "gold_source": "Strautnieks 1998",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-025",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the ABCB4 locus (cholestasis (PFIC3))?",
+  "gold_answer": "Hepatocyte canalicular phospholipid flop.",
+  "gold_source": "de Vree 1998",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-026",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the ATP7B locus (Wilson disease)?",
+  "gold_answer": "Hepatocyte copper excretion.",
+  "gold_source": "Bull 1993",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-027",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the IFNL3 locus (HCV clearance (IL28B))?",
+  "gold_answer": "Immune/interferon lambda; effector is immune response, not hepatocyte metabolism.",
+  "gold_source": "Ge 2009",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-028",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the SLC39A8 locus (manganese/BMI)?",
+  "gold_answer": "Hepatocyte metal transport (Mn).",
+  "gold_source": "Pickrell 2016",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-029",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the PNPLA2 locus (lipid droplets (ATGL))?",
+  "gold_answer": "Hepatocyte TG lipolysis.",
+  "gold_source": "Zimmermann 2004",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "GW-030",
+  "category": "gwas_celltype",
+  "question": "Which liver cell type mediates the ERLIN1 locus (lipids)?",
+  "gold_answer": "ER lipid raft protein; hepatic lipid locus.",
+  "gold_source": "Speliotes 2011",
+  "expected_tools": [
+   "gwas_program"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P01",
+  "category": "drug_library",
+  "question": "Is the compound \"Vincristine sulfate\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vLess-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P02",
+  "category": "drug_library",
+  "question": "Is the compound \"Cetirizine hydrochloride\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vLess-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P03",
+  "category": "drug_library",
+  "question": "Is the compound \"Amifostine\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P04",
+  "category": "drug_library",
+  "question": "Is the compound \"Ganirelix acetate\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P05",
+  "category": "drug_library",
+  "question": "Is the compound \"Fingolimod hydrochloride\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vMost-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P06",
+  "category": "drug_library",
+  "question": "Is the compound \"Etelcalcetide\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P07",
+  "category": "drug_library",
+  "question": "Is the compound \"Conivaptan hydrochloride\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P08",
+  "category": "drug_library",
+  "question": "Is the compound \"Cefixime\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vLess-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P09",
+  "category": "drug_library",
+  "question": "Is the compound \"Selinexor\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: Ambiguous-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P10",
+  "category": "drug_library",
+  "question": "Is the compound \"Calcitriol\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P11",
+  "category": "drug_library",
+  "question": "Is the compound \"Thalidomide\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vLess-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P12",
+  "category": "drug_library",
+  "question": "Is the compound \"Nitazoxanide\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P13",
+  "category": "drug_library",
+  "question": "Is the compound \"Amoxicillin\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vLess-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P14",
+  "category": "drug_library",
+  "question": "Is the compound \"Amitriptyline hydrochloride\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vLess-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P15",
+  "category": "drug_library",
+  "question": "Is the compound \"Carbidopa\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: Ambiguous-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P16",
+  "category": "drug_library",
+  "question": "Is the compound \"Esmolol hydrochloride\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P17",
+  "category": "drug_library",
+  "question": "Is the compound \"Falnidamol\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vMost-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P18",
+  "category": "drug_library",
+  "question": "Is the compound \"Protirelin\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vNo-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P19",
+  "category": "drug_library",
+  "question": "Is the compound \"Tizanidine hydrochloride\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vMost-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-P20",
+  "category": "drug_library",
+  "question": "Is the compound \"Amineptine\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "yes (vDILI concern: vMost-DILI-concern)",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; 1,336 compounds)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N01",
+  "category": "drug_library",
+  "question": "Is the compound \"PERGOLIDE\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N02",
+  "category": "drug_library",
+  "question": "Is the compound \"DEXKETOPROFEN\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N03",
+  "category": "drug_library",
+  "question": "Is the compound \"TEGAFUR\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N04",
+  "category": "drug_library",
+  "question": "Is the compound \"ROMOSOZUMAB\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N05",
+  "category": "drug_library",
+  "question": "Is the compound \"SUXIBUZONE\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N06",
+  "category": "drug_library",
+  "question": "Is the compound \"PALOPEGTERIPARATIDE\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N07",
+  "category": "drug_library",
+  "question": "Is the compound \"LULICONAZOLE\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N08",
+  "category": "drug_library",
+  "question": "Is the compound \"DIPYRONE\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N09",
+  "category": "drug_library",
+  "question": "Is the compound \"METABROMSALAN\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DL-N10",
+  "category": "drug_library",
+  "question": "Is the compound \"PLITIDEPSIN\" listed in the FDA DILIrank liver-toxicity reference dataset?",
+  "gold_answer": "no",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB; absence verified against full compound list)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-01",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Mirabegron?",
+  "gold_answer": "Ambiguous-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-02",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Bumetanide?",
+  "gold_answer": "Ambiguous-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-03",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Relugolix?",
+  "gold_answer": "Ambiguous-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-04",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Lacosamide?",
+  "gold_answer": "Ambiguous-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-05",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Cefpodoxime proxetil?",
+  "gold_answer": "Ambiguous-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-06",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Ibuprofen?",
+  "gold_answer": "vLess-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-07",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Verapamil hydrochloride?",
+  "gold_answer": "vLess-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-08",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Tinidazole?",
+  "gold_answer": "vLess-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-09",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Oxycodone hydrochloride?",
+  "gold_answer": "vLess-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-10",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Hydroxychloroquine sulfate?",
+  "gold_answer": "vLess-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-11",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Aminosalicylic acid ?",
+  "gold_answer": "vMOST-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-12",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Abacavir sulfate?",
+  "gold_answer": "vMOST-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-13",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Tolcapone?",
+  "gold_answer": "vMost-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-14",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Zidovudine?",
+  "gold_answer": "vMost-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-15",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Nialamide?",
+  "gold_answer": "vMost-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-16",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Ritonavir?",
+  "gold_answer": "vMost-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-17",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Asparaginase?",
+  "gold_answer": "vMost-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-18",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Atracurium?",
+  "gold_answer": "vNo-DILI-Concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-19",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Ubrogepant?",
+  "gold_answer": "vNo-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-20",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Sevelamer hydrochloride?",
+  "gold_answer": "vNo-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-21",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Vericiguat?",
+  "gold_answer": "vNo-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-22",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Sodium fluoride f-18?",
+  "gold_answer": "vNo-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DS-23",
+  "category": "drug_severity",
+  "question": "What is the DILIrank vDILI-concern severity category of Histamine phosphate?",
+  "gold_answer": "vNo-DILI-concern",
+  "gold_source": "DILIrank v2 dataset (FDA/LTKB, severity v2.0)",
+  "expected_tools": [
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-01",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of METHAZOLAMIDE?",
+  "gold_answer": "Carbonic anhydrase VII inhibitor (target: Carbonic anhydrase 7)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-02",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of DESONIDE?",
+  "gold_answer": "Glucocorticoid receptor agonist (target: Glucocorticoid receptor)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-03",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of NEPAFENAC?",
+  "gold_answer": "Cyclooxygenase inhibitor (target: Cyclooxygenase)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-04",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of REGORAFENIB?",
+  "gold_answer": "Vascular endothelial growth factor receptor inhibitor (target: Vascular endothelial growth factor receptor)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-05",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of MUPIROCIN?",
+  "gold_answer": "Isoleucyl-tRNA synthetase inhibitor (target: Isoleucine--tRNA ligase)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-06",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of ACETAMINOPHEN?",
+  "gold_answer": "Cyclooxygenase inhibitor (target: Cyclooxygenase)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-07",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of DYPHYLLINE?",
+  "gold_answer": "Phosphodiesterase 4 inhibitor (target: Phosphodiesterase 4)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-08",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of DIFELIKEFALIN?",
+  "gold_answer": "Kappa opioid receptor agonist (target: Kappa-type opioid receptor)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-09",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of ALPELISIB?",
+  "gold_answer": "PI3-kinase p110-alpha subunit inhibitor (target: Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-10",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of HALOTHANE?",
+  "gold_answer": "Potassium channel subfamily K member 10 opener (target: Potassium channel subfamily K member 10)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-11",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of DEXRAZOXANE?",
+  "gold_answer": "DNA topoisomerase II inhibitor (target: DNA topoisomerase II)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-12",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of BENZBROMARONE?",
+  "gold_answer": "Solute carrier family 22 member 12 inhibitor (target: Solute carrier family 22 member 12)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-13",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of DOXEPIN?",
+  "gold_answer": "Histamine H1 receptor antagonist (target: Histamine H1 receptor)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-14",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of MENOTROPINS?",
+  "gold_answer": "Follicle stimulating hormone receptor agonist (target: Follicle-stimulating hormone receptor)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-15",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of TEMSIROLIMUS?",
+  "gold_answer": "FK506-binding protein 1A inhibitor (target: Peptidyl-prolyl cis-trans isomerase FKBP1A)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-16",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of PRIMIDONE?",
+  "gold_answer": "GABA-A receptor; anion channel positive allosteric modulator (target: GABA-A receptor; anion channel)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-17",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of DARATUMUMAB?",
+  "gold_answer": "Lymphocyte differentiation antigen CD38 inhibitor (target: ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-18",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of ALITRETINOIN?",
+  "gold_answer": "Retinoid receptor agonist (target: Retinoid receptor)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-19",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of MEPTAZINOL?",
+  "gold_answer": "Mu opioid receptor partial agonist (target: Mu-type opioid receptor)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DT-20",
+  "category": "drug_target",
+  "question": "What is the reported mechanism of action and molecular target of RITONAVIR?",
+  "gold_answer": "Human immunodeficiency virus type 1 protease inhibitor (target: Human immunodeficiency virus type 1 protease)",
+  "gold_source": "ChEMBL 33 mechanism-of-action table (+ DrugBank cross-check)",
+  "expected_tools": [
+   "query_drug_target"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P01",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does CCL2 signal to CCR2?",
+  "gold_answer": "yes, ligand=CCL2, receptor=CCR2",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P02",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does CCL5 signal to CCR5?",
+  "gold_answer": "yes, ligand=CCL5, receptor=CCR5",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P03",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does CXCL12 signal to CXCR4?",
+  "gold_answer": "yes, ligand=CXCL12, receptor=CXCR4",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P04",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does CSF1 signal to CSF1R?",
+  "gold_answer": "yes, ligand=CSF1, receptor=CSF1R",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P05",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does EGF signal to EGFR?",
+  "gold_answer": "yes, ligand=EGF, receptor=EGFR",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P06",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does HBEGF signal to EGFR?",
+  "gold_answer": "yes, ligand=HBEGF, receptor=EGFR",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P07",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does FGF2 signal to FGFR1?",
+  "gold_answer": "yes, ligand=FGF2, receptor=FGFR1",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P08",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does IL1B signal to IL1R1?",
+  "gold_answer": "yes, ligand=IL1B, receptor=IL1R1",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P09",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does IL6 signal to IL6R?",
+  "gold_answer": "yes, ligand=IL6, receptor=IL6R",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P10",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does DLL4 signal to NOTCH1?",
+  "gold_answer": "yes, ligand=DLL4, receptor=NOTCH1",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P11",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does DLL4 signal to NOTCH2?",
+  "gold_answer": "yes, ligand=DLL4, receptor=NOTCH2",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P12",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does JAG1 signal to NOTCH1?",
+  "gold_answer": "yes, ligand=JAG1, receptor=NOTCH1",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P13",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does JAG1 signal to NOTCH2?",
+  "gold_answer": "yes, ligand=JAG1, receptor=NOTCH2",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P14",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does JAG2 signal to NOTCH1?",
+  "gold_answer": "yes, ligand=JAG2, receptor=NOTCH1",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P15",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does JAG2 signal to NOTCH2?",
+  "gold_answer": "yes, ligand=JAG2, receptor=NOTCH2",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P16",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does OSM signal to LIFR?",
+  "gold_answer": "yes, ligand=OSM, receptor=LIFR",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P17",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does OSM signal to OSMR?",
+  "gold_answer": "yes, ligand=OSM, receptor=OSMR",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P18",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does PDGFB signal to PDGFRB?",
+  "gold_answer": "yes, ligand=PDGFB, receptor=PDGFRB",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P19",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does TGFA signal to EGFR?",
+  "gold_answer": "yes, ligand=TGFA, receptor=EGFR",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P20",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does TGFB1 signal to TGFBR1?",
+  "gold_answer": "yes, ligand=TGFB1, receptor=TGFBR1",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P21",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does TNF signal to TNFRSF1A?",
+  "gold_answer": "yes, ligand=TNF, receptor=TNFRSF1A",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P22",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does VEGFA signal to FLT1?",
+  "gold_answer": "yes, ligand=VEGFA, receptor=FLT1",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P23",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does VEGFA signal to KDR?",
+  "gold_answer": "yes, ligand=VEGFA, receptor=KDR",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P24",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does HGF signal to MET?",
+  "gold_answer": "yes, ligand=HGF, receptor=MET",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-P25",
+  "category": "niche_lr",
+  "question": "In the ligand-receptor interaction database, does KITLG signal to KIT?",
+  "gold_answer": "yes, ligand=KITLG, receptor=KIT",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (Troule et al./Ventolab, v5.0.0)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N01",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does IL1B signal to FGFR1?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N02",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does TGFA signal to CXCR4?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N03",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does WNT3A signal to CD44?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N04",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does CCL2 signal to OSMR?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N05",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does KITLG signal to FLT1?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N06",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does CSF1 signal to KIT?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N07",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does EFNB2 signal to IL1R1?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N08",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does JAG1 signal to KDR?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N09",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does PDGFB signal to KIT?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "LR-N10",
+  "category": "niche_lr_reverse",
+  "question": "In the ligand-receptor interaction database, does KITLG signal to TNFRSF1A?",
+  "gold_answer": "no, this ligand-receptor pair is not curated in the database",
+  "gold_source": "CellPhoneDB v5 ligand-receptor database (absence verified against full interaction table)",
+  "expected_tools": [
+   "query_ligand_receptor"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-01",
+  "category": "multi_hop",
+  "question": "The compound Baricitinib is reported to act through JAK1. If you knock out JAK1 in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "JAK1 is a trained gene so the knockout tool can be used; DILIrank concern of Baricitinib: Ambiguous.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-02",
+  "category": "multi_hop",
+  "question": "The compound Bempedoic acid is reported to act through ACLY. If you knock out ACLY in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "ACLY is a trained gene so the knockout tool can be used; DILIrank concern of Bempedoic acid: Ambiguous.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-03",
+  "category": "multi_hop",
+  "question": "The compound Chlorzoxazone is reported to act through KCNN4. If you knock out KCNN4 in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "KCNN4 is a trained gene so the knockout tool can be used; DILIrank concern of Chlorzoxazone: vMost.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-04",
+  "category": "multi_hop",
+  "question": "The compound Darbepoetin alfa is reported to act through EPOR. If you knock out EPOR in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "EPOR is a trained gene so the knockout tool can be used; DILIrank concern of Darbepoetin alfa: vLess.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-05",
+  "category": "multi_hop",
+  "question": "The compound Decitabine is reported to act through DNMT3A. If you knock out DNMT3A in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "DNMT3A is a trained gene so the knockout tool can be used; DILIrank concern of Decitabine: Ambiguous.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-06",
+  "category": "multi_hop",
+  "question": "The compound Epoprostenol sodium is reported to act through PTGIR. If you knock out PTGIR in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "PTGIR is a trained gene so the knockout tool can be used; DILIrank concern of Epoprostenol sodium: Ambiguous.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-07",
+  "category": "multi_hop",
+  "question": "The compound Ibrutinib is reported to act through BTK. If you knock out BTK in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "BTK is a trained gene so the knockout tool can be used; DILIrank concern of Ibrutinib: vMost.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-08",
+  "category": "multi_hop",
+  "question": "The compound Megestrol acetate is reported to act through PGR. If you knock out PGR in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "PGR is a trained gene so the knockout tool can be used; DILIrank concern of Megestrol acetate: Ambiguous.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-09",
+  "category": "multi_hop",
+  "question": "The compound Methotrexate sodium is reported to act through DHFR. If you knock out DHFR in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "DHFR is a trained gene so the knockout tool can be used; DILIrank concern of Methotrexate sodium: vMost.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-10",
+  "category": "multi_hop",
+  "question": "The compound Nabumetone is reported to act through PTGS2. If you knock out PTGS2 in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "PTGS2 is a trained gene so the knockout tool can be used; DILIrank concern of Nabumetone: Ambiguous.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-11",
+  "category": "multi_hop",
+  "question": "The compound Neomycin sulfate is reported to act through RPSA. If you knock out RPSA in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "RPSA is a trained gene so the knockout tool can be used; DILIrank concern of Neomycin sulfate: vNo.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-12",
+  "category": "multi_hop",
+  "question": "The compound Pentostatin is reported to act through ADA. If you knock out ADA in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "ADA is a trained gene so the knockout tool can be used; DILIrank concern of Pentostatin: vMost.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-13",
+  "category": "multi_hop",
+  "question": "The compound Selexipag is reported to act through PTGIR. If you knock out PTGIR in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "PTGIR is a trained gene so the knockout tool can be used; DILIrank concern of Selexipag: vNo.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-14",
+  "category": "multi_hop",
+  "question": "The compound Spironolactone is reported to act through NR3C2. If you knock out NR3C2 in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "NR3C2 is a trained gene so the knockout tool can be used; DILIrank concern of Spironolactone: vLess.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "MH-15",
+  "category": "multi_hop",
+  "question": "The compound Tadalafil is reported to act through PDE5A. If you knock out PDE5A in hepatocytes with the virtual liver, what cellular program would you expect to change, and is this compound's DILIrank concern consistent with on-target hepatotoxicity?",
+  "gold_answer": "PDE5A is a trained gene so the knockout tool can be used; DILIrank concern of Tadalafil: vLess.",
+  "gold_source": "ChEMBL 33 mechanism table + DILIrank v2 + HepaDiff v4 trained-gene vocabulary",
+  "expected_tools": [
+   "query_drug_target",
+   "knockout",
+   "query_drug_library"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-01",
+  "category": "disease_state",
+  "question": "MASLD hepatocytes: what is the defining cellular change?",
+  "gold_answer": "Macrovesicular steatosis — triglyceride lipid-droplet accumulation in hepatocytes.",
+  "gold_source": "Neuschwander-Tetri, Hepatology 2017 (MASLD histology); Brunt & Tiniakos, Semin Liver Dis 2015",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-02",
+  "category": "disease_state",
+  "question": "MASH hepatic stellate cells: what program dominates vs quiescent state?",
+  "gold_answer": "Fibrogenic activation: collagen/ECM program (COL1A1, ACTA2) up, vitamin-A lipid-storage phenotype lost.",
+  "gold_source": "Friedman, Hepatology 2008 (HSC activation); Krenkel et al., Cell Rep 2019",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-03",
+  "category": "disease_state",
+  "question": "Cirrhotic liver: which macrophage subset expands in fibrous scars?",
+  "gold_answer": "TREM2+ CD9+ scar-associated macrophages.",
+  "gold_source": "Ramachandran et al., Nature 2019 (cirrhosis single-cell atlas)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-04",
+  "category": "disease_state",
+  "question": "Cirrhotic liver: which endothelial subset expands in scars?",
+  "gold_answer": "ACKR1+ PLVAP+ scar-associated endothelial cells in fibrous septa.",
+  "gold_source": "Ramachandran et al., Nature 2019",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-05",
+  "category": "disease_state",
+  "question": "MASH liver: what happens to resident Kupffer cells?",
+  "gold_answer": "Embryonic Kupffer cells are depleted and replaced by monocyte-derived macrophages.",
+  "gold_source": "Guilliams et al., Cell 2022; Seidman et al., Cell Rep 2020",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-06",
+  "category": "disease_state",
+  "question": "MASH liver: name the lipid-laden macrophage state that appears.",
+  "gold_answer": "Lipid-associated macrophages (LAMs), TREM2+ CD9+, crown-like structures around steatotic hepatocytes.",
+  "gold_source": "Daemen et al., Cell Metab 2021; Guilliams et al., Cell 2022",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-07",
+  "category": "disease_state",
+  "question": "HCC microenvironment: which T-cell states are enriched?",
+  "gold_answer": "Exhausted CD8+ T cells and regulatory T cells accumulate.",
+  "gold_source": "Zheng et al., Cell 2017 (HCC T-cell single-cell landscape)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-08",
+  "category": "disease_state",
+  "question": "Healthy liver zonation: which functions mark pericentral (zone 3) hepatocytes?",
+  "gold_answer": "Xenobiotic metabolism and glutamine synthesis — CYP2E1, GLUL high near central vein.",
+  "gold_source": "Halpern et al., Nat Biotechnol 2017 (zonation); Ben-Moshe & Itzkovitz, Nat Rev Gastroenterol Hepatol 2019",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-09",
+  "category": "disease_state",
+  "question": "Healthy liver zonation: which functions mark periportal (zone 1) hepatocytes?",
+  "gold_answer": "Urea cycle and gluconeogenesis — CPS1, ALDOB high near portal triad.",
+  "gold_source": "Halpern et al., Nat Biotechnol 2017",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-10",
+  "category": "disease_state",
+  "question": "Fetal liver: what distinguishes it from adult liver?",
+  "gold_answer": "AFP+ hepatoblasts plus active intrahepatic hematopoiesis.",
+  "gold_source": "Popescu et al., Nature 2019 (human fetal liver atlas)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-11",
+  "category": "disease_state",
+  "question": "Liver regeneration after partial hepatectomy: initiating signals?",
+  "gold_answer": "IL-6/TNF priming then HGF/MET and EGFR-driven hepatocyte proliferation.",
+  "gold_source": "Michalopoulos, J Cell Physiol 2007; Cressman et al., Science 1996",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-12",
+  "category": "disease_state",
+  "question": "PBC: which cells are primarily injured?",
+  "gold_answer": "Small intrahepatic bile-duct cholangiocytes (autoimmune, AMA-associated).",
+  "gold_source": "Lleo et al., Nat Rev Dis Primers 2020 (PBC)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-13",
+  "category": "disease_state",
+  "question": "PSC: characteristic lesion?",
+  "gold_answer": "Onion-skin periductal fibrosis of bile ducts; strong IBD association.",
+  "gold_source": "Karlsen et al., J Hepatol 2017 (PSC)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-14",
+  "category": "disease_state",
+  "question": "Autoimmune hepatitis: histologic hallmark?",
+  "gold_answer": "Interface hepatitis with plasma-cell-rich infiltrate.",
+  "gold_source": "Mieli-Vergani et al., J Autoimmun 2018 (AIH)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-15",
+  "category": "disease_state",
+  "question": "Acetaminophen overdose: which liver zone is injured first?",
+  "gold_answer": "Centrilobular (zone 3) necrosis — CYP2E1-rich region where NAPQI forms.",
+  "gold_source": "LiverTox/NIH (acetaminophen); Jaeschke et al., Compr Physiol 2021",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-16",
+  "category": "disease_state",
+  "question": "Which cell type produces most collagen in liver fibrosis?",
+  "gold_answer": "Activated hepatic stellate cells (myofibroblasts) are the dominant source.",
+  "gold_source": "Mederacke et al., Nat Commun 2013 (fate tracing); Friedman, Hepatology 2008",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-17",
+  "category": "disease_state",
+  "question": "Chronic viral hepatitis (HBV/HCV): dominant T-cell phenotype?",
+  "gold_answer": "Functionally exhausted virus-specific CD8+ T cells.",
+  "gold_source": "Bertoletti & Ferrari, Gut 2016 (HBV); Bengsch et al., Hepatology 2010 (HCV)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-18",
+  "category": "disease_state",
+  "question": "Intrahepatic cholangiocarcinoma: malignant cell identity?",
+  "gold_answer": "KRT19+ EPCAM+ cholangiocyte-lineage malignant ductal cells.",
+  "gold_source": "Banales et al., Nat Rev Gastroenterol Hepatol 2020 (CCA)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-19",
+  "category": "disease_state",
+  "question": "Chronic biliary injury: what is the ductular reaction?",
+  "gold_answer": "Expansion of KRT7+/KRT19+ reactive ductular/progenitor cells at the portal-parenchymal interface.",
+  "gold_source": "Gouw et al., Hepatology 2011 (ductular reaction)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-20",
+  "category": "disease_state",
+  "question": "MASLD progression in liver sinusoidal endothelial cells: early change?",
+  "gold_answer": "LSEC capillarization — loss of fenestrae and of the scavenger phenotype.",
+  "gold_source": "DeLeve, Compr Physiol 2015; Poisson et al., J Hepatol 2017",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-21",
+  "category": "disease_state",
+  "question": "MASH hepatocytes: characteristic injured cell morphology?",
+  "gold_answer": "Ballooned hepatocytes with Mallory-Denk bodies.",
+  "gold_source": "Brunt & Tiniakos, Semin Liver Dis 2015 (MASH histology)",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-22",
+  "category": "disease_state",
+  "question": "Alcohol-associated hepatitis: dominant inflammatory cell?",
+  "gold_answer": "Neutrophilic infiltration with hepatocyte ballooning and cholestasis.",
+  "gold_source": "Lucey et al., N Engl J Med 2009 (AH); Crabb et al., Hepatology 2020",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-23",
+  "category": "disease_state",
+  "question": "Cirrhotic liver: what happens to mesothelial/capsular GPM6A+ cells in MASH-fibrosis?",
+  "gold_answer": "GPM6A+ mesothelial cells expand and contribute to the scar niche.",
+  "gold_source": "Guilliams et al., Cell 2022",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-24",
+  "category": "disease_state",
+  "question": "Liver fibrosis regression: which cells degrade scar ECM?",
+  "gold_answer": "Restorative Ly6C-lo macrophages expressing matrix metalloproteinases.",
+  "gold_source": "Ramachandran et al., Hepatology 2012; Tacke & Zimmermann, J Hepatol 2014",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "DSX-25",
+  "category": "disease_state",
+  "question": "HCC malignant hepatocytes vs healthy: core expression shift?",
+  "gold_answer": "Dedifferentiation — loss of mature metabolic/zonation programs, gain of proliferation programs (AFP re-expression in a subset).",
+  "gold_source": "Craig et al., Cold Spring Harb Perspect Med 2018; Aizarani et al., Nature 2019",
+  "expected_tools": [
+   "generate_condition"
+  ],
+  "notes": ""
+ },
+ {
+  "id": "CM-01",
+  "category": "classic_mechanism",
+  "question": "Which enzyme catalyses the rate-limiting step of the urea cycle in hepatocytes?",
+  "gold_answer": "Carbamoyl-phosphate synthase 1 (CPS1), periportal (zone 1).",
+  "gold_source": "Morris, Annu Rev Genomics Hum Genet 2002 (urea cycle)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-02",
+  "category": "classic_mechanism",
+  "question": "Statin treatment upregulates which hepatic receptor via SREBP2 feedback?",
+  "gold_answer": "LDLR — sterol depletion activates SREBP2, increasing LDL receptor expression.",
+  "gold_source": "Goldstein & Brown, Arterioscler Thromb Vasc Biol 2009",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-03",
+  "category": "classic_mechanism",
+  "question": "How does the intestine-liver FGF19 axis regulate bile-acid synthesis?",
+  "gold_answer": "Ileal FXR induces FGF19, which signals through hepatic FGFR4/beta-Klotho to repress CYP7A1.",
+  "gold_source": "Inagaki et al., Cell Metab 2005",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-04",
+  "category": "classic_mechanism",
+  "question": "Which transporter exports bile salts across the canalicular membrane?",
+  "gold_answer": "BSEP (ABCB11).",
+  "gold_source": "Stieger et al., Gastroenterology 2007",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-05",
+  "category": "classic_mechanism",
+  "question": "Wilson disease is caused by mutations in which gene?",
+  "gold_answer": "ATP7B — impaired biliary copper excretion and ceruloplasmin loading.",
+  "gold_source": "Bull et al., Nat Genet 1993",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-06",
+  "category": "classic_mechanism",
+  "question": "Hereditary haemochromatosis classically involves which gene?",
+  "gold_answer": "HFE (C282Y) — inappropriately low hepcidin, iron overload.",
+  "gold_source": "Feder et al., Nat Genet 1996",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-07",
+  "category": "classic_mechanism",
+  "question": "Alpha-1 antitrypsin deficiency: which gene and variant class cause liver disease?",
+  "gold_answer": "SERPINA1, PiZ (E342K) polymer accumulation in hepatocyte ER.",
+  "gold_source": "Lomas et al., Nature 1992",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-08",
+  "category": "classic_mechanism",
+  "question": "Where do Kupffer cells originate in steady state?",
+  "gold_answer": "Embryonic (yolk-sac/fetal-liver) origin, self-renewing resident macrophages.",
+  "gold_source": "Schulz et al., Science 2012; Gomez Perdiguero et al., Nature 2015",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-09",
+  "category": "classic_mechanism",
+  "question": "What distinguishes liver sinusoidal endothelial cells from continuous endothelium?",
+  "gold_answer": "Open fenestrae grouped in sieve plates and lack of a basement membrane.",
+  "gold_source": "Wisse et al., Hepatology 1985; Poisson et al., J Hepatol 2017",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-10",
+  "category": "classic_mechanism",
+  "question": "Where do quiescent hepatic stellate cells store vitamin A?",
+  "gold_answer": "Cytoplasmic lipid droplets in the space of Disse.",
+  "gold_source": "Wake, Am J Anat 1971; Friedman, Hepatology 2008",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-11",
+  "category": "classic_mechanism",
+  "question": "Which signaling pathway specifies the cholangiocyte lineage, mutated in Alagille syndrome?",
+  "gold_answer": "Notch — JAG1 (or NOTCH2) mutations cause bile-duct paucity.",
+  "gold_source": "Li et al., Nat Genet 1997; McDaniell et al., Am J Hum Genet 2006",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-12",
+  "category": "classic_mechanism",
+  "question": "Which transcription factor is the master regulator of hepatocyte identity?",
+  "gold_answer": "HNF4A.",
+  "gold_source": "Li et al., EMBO J 2000 (hepatocyte identity); Parviz et al., Nat Genet 2003",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-13",
+  "category": "classic_mechanism",
+  "question": "Which pathway drives pericentral metabolic zonation?",
+  "gold_answer": "Wnt/beta-catenin — APC loss or CTNNB1 activation expands zone-3 programs.",
+  "gold_source": "Benhamouche et al., Dev Cell 2006",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-14",
+  "category": "classic_mechanism",
+  "question": "Which cytokine pathway primes hepatocyte proliferation after partial hepatectomy?",
+  "gold_answer": "IL-6/STAT3 (with TNF/NF-kB priming).",
+  "gold_source": "Cressman et al., Science 1996",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-15",
+  "category": "classic_mechanism",
+  "question": "Which pathway limits liver size; its loss causes organ overgrowth?",
+  "gold_answer": "Hippo — YAP/TAZ activation drives hepatomegaly.",
+  "gold_source": "Camargo et al., Curr Biol 2007; Lee et al., Genes Dev 2010",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-16",
+  "category": "classic_mechanism",
+  "question": "How does insulin stimulate hepatic lipogenesis?",
+  "gold_answer": "AKT-dependent activation of SREBP1c, inducing FASN/ACC.",
+  "gold_source": "Horton et al., J Clin Invest 2002",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-17",
+  "category": "classic_mechanism",
+  "question": "Which transcription factor induces lipogenesis in response to glucose?",
+  "gold_answer": "ChREBP (MLXIPL).",
+  "gold_source": "Uyeda & Repa, Cell Metab 2006",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-18",
+  "category": "classic_mechanism",
+  "question": "Which nuclear receptor drives the fasting fatty-acid oxidation program including CPT1A?",
+  "gold_answer": "PPARA.",
+  "gold_source": "Kersten et al., J Clin Invest 1999; Rakhshandehroo et al., J Lipid Res 2010",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-19",
+  "category": "classic_mechanism",
+  "question": "Which proteins are essential for hepatic VLDL assembly and secretion?",
+  "gold_answer": "MTTP (lipidation) and APOB (particle scaffold).",
+  "gold_source": "Hussain et al., J Lipid Res 2008",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-20",
+  "category": "classic_mechanism",
+  "question": "Acetaminophen hepatotoxicity: which enzyme generates NAPQI and what is depleted?",
+  "gold_answer": "CYP2E1 (plus CYP1A2/3A4); glutathione is depleted, then N-acetylcysteine rescues.",
+  "gold_source": "Jaeschke et al., Compr Physiol 2021",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-21",
+  "category": "classic_mechanism",
+  "question": "Which enzyme conjugates bilirubin; its mild deficiency causes Gilbert syndrome?",
+  "gold_answer": "UGT1A1.",
+  "gold_source": "Bosma et al., N Engl J Med 1995",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-22",
+  "category": "classic_mechanism",
+  "question": "Which mitochondrial enzyme drives hepatic ketogenesis during fasting?",
+  "gold_answer": "HMGCS2.",
+  "gold_source": "Hegardt, Biochem J 1999",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-23",
+  "category": "classic_mechanism",
+  "question": "Which hepatocyte-secreted hormone regulates systemic iron via ferroportin degradation?",
+  "gold_answer": "Hepcidin (HAMP).",
+  "gold_source": "Ganz, Blood 2011",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-24",
+  "category": "classic_mechanism",
+  "question": "Which receptor internalizes LDL particles in hepatocytes and is degraded by PCSK9?",
+  "gold_answer": "LDLR; PCSK9 targets it for lysosomal degradation.",
+  "gold_source": "Abifadel et al., Nat Genet 2003",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-25",
+  "category": "classic_mechanism",
+  "question": "First-pass metabolism of many drugs uses which abundant zone-3 CYP?",
+  "gold_answer": "CYP3A4.",
+  "gold_source": "Wilkinson, Annu Rev Pharmacol Toxicol 2005",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-26",
+  "category": "classic_mechanism",
+  "question": "Periportal gluconeogenesis: name the two rate-limiting enzymes.",
+  "gold_answer": "PEPCK (PCK1) and glucose-6-phosphatase (G6PC).",
+  "gold_source": "Pilkis & Granner, Annu Rev Physiol 1992",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-27",
+  "category": "classic_mechanism",
+  "question": "What is the predominant plasma protein secreted by hepatocytes?",
+  "gold_answer": "Albumin (ALB), the main determinant of plasma oncotic pressure.",
+  "gold_source": "Peters, All About Albumin 1996",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-28",
+  "category": "classic_mechanism",
+  "question": "Which clotting factors require vitamin K-dependent gamma-carboxylation by hepatocytes?",
+  "gold_answer": "Factors II, VII, IX, X (plus protein C/S).",
+  "gold_source": "Stafford, J Thromb Haemost 2005",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-29",
+  "category": "classic_mechanism",
+  "question": "During fibrosis resolution, which macrophage phenotype clears scar matrix?",
+  "gold_answer": "Ly6C-low restorative macrophages secreting MMPs.",
+  "gold_source": "Ramachandran et al., Hepatology 2012",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "CM-30",
+  "category": "classic_mechanism",
+  "question": "Which ligand-receptor pair is the canonical hepatocyte growth signal for regeneration?",
+  "gold_answer": "HGF-MET.",
+  "gold_source": "Michalopoulos, J Cell Physiol 2007",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-01",
+  "category": "strategy_workflow",
+  "question": "You have 50 uncharacterized compounds. How would you use the virtual liver to prioritize them for steatosis risk?",
+  "gold_answer": "Run compound_perturbation across hepatocyte contexts, score lipid-handling program shifts, and cross-check each compound against the DILIrank library tool for known severity labels.",
+  "gold_source": "HepaDiff v4 agent tool documentation (compound_perturbation, query_drug_library)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-02",
+  "category": "strategy_workflow",
+  "question": "How would you test whether a compound's hepatocyte effect is on-target?",
+  "gold_answer": "Query the drug-target annotation, knock out the annotated target gene in the same cell type, and compare the gene-knockout delta with the compound delta.",
+  "gold_source": "HepaDiff v4 agent tool documentation (query_drug_target, knockout, compound_perturbation)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-03",
+  "category": "strategy_workflow",
+  "question": "A new MASLD GWAS locus is published. How do you find which liver cell type mediates it?",
+  "gold_answer": "Score the locus gene program across cell types with the GWAS-program module and rank cell types by program enrichment.",
+  "gold_source": "HepaDiff v4 agent tool documentation (gwas_program)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-04",
+  "category": "strategy_workflow",
+  "question": "How would you simulate disease progression along the MASLD spectrum in stellate cells?",
+  "gold_answer": "Use generate_condition across the healthy-MASLD-MASH-fibrosis condition ladder and track fibrogenic program shifts per stage.",
+  "gold_source": "HepaDiff v4 agent tool documentation (generate_condition)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-05",
+  "category": "strategy_workflow",
+  "question": "A knockout result was obtained in mouse. How do you check its human translatability with this platform?",
+  "gold_answer": "Run the species-comparison module on the same perturbation and compare direction and magnitude of the effect across species.",
+  "gold_source": "HepaDiff v4 agent tool documentation (species module)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-06",
+  "category": "strategy_workflow",
+  "question": "A user asks for a knockout prediction of a gene absent from the trained vocabulary. What should the agent do?",
+  "gold_answer": "Refuse/abstain and state the limitation explicitly; optionally suggest using a trained paralog or designing the question around trained genes.",
+  "gold_source": "HepaDiff v4 agent tool documentation (capability boundary / abstention policy)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-07",
+  "category": "strategy_workflow",
+  "question": "How would you identify which liver cell type a new compound injures first?",
+  "gold_answer": "Run compound_perturbation across a panel of liver cell types and rank cell types by injury-signature score.",
+  "gold_source": "HepaDiff v4 agent tool documentation (compound_perturbation, injury signature)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-08",
+  "category": "strategy_workflow",
+  "question": "How can you assess the robustness of a virtual knockout prediction?",
+  "gold_answer": "Generate across multiple random seeds and use the uncertainty/abstention readout; high uncertainty calls for withholding the conclusion.",
+  "gold_source": "HepaDiff v4 agent tool documentation (uncertainty, abstention)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-09",
+  "category": "strategy_workflow",
+  "question": "How would you find candidate ligand-receptor pairs mediating macrophage-to-stellate crosstalk in MASH?",
+  "gold_answer": "Query the ligand-receptor database tool for macrophage ligands with stellate-expressed receptors, then test the niche effect with condition generation.",
+  "gold_source": "HepaDiff v4 agent tool documentation (query_ligand_receptor, generate_condition)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-10",
+  "category": "strategy_workflow",
+  "question": "How would you validate that a generated MASH stellate cell population is realistic?",
+  "gold_answer": "Check the fibrogenic marker program (COL1A1/ACTA2 up, vitamin-A storage lost) against the published single-cell literature rather than against the model itself.",
+  "gold_source": "Ramachandran et al., Nature 2019; Guilliams et al., Cell 2022 (independent reference atlases)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-11",
+  "category": "strategy_workflow",
+  "question": "How would you use the platform to nominate DILI-risk compounds among vMost-labelled drugs with trained targets?",
+  "gold_answer": "Screen the DILIrank vMost subset whose annotated targets are in the trained vocabulary, compare each target-knockout delta with the compound delta, and rank by concordance.",
+  "gold_source": "HepaDiff v4 agent tool documentation + DILIrank v2 subsetting rule",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "SW-12",
+  "category": "strategy_workflow",
+  "question": "How would you link a virtual knockout program to HCC patient prognosis?",
+  "gold_answer": "Score the knockout-induced program on TCGA-LIHC expression data and test survival association with the survival module.",
+  "gold_source": "HepaDiff v4 agent tool documentation (survival module, TCGA-LIHC)",
+  "expected_tools": [],
+  "notes": ""
+ },
+ {
+  "id": "KO2-FASN",
+  "category": "knockout_mechanism",
+  "question": "What happens to hepatic fatty-acid synthesis when FASN is knocked out?",
+  "gold_answer": "De novo lipogenesis collapses; malonyl-CoA/palmitate output drops.",
+  "gold_source": "Chakravarthy et al., Cell Metab 2005 (liver FASN)",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=FASN trained"
+ },
+ {
+  "id": "KO2-CPT1A",
+  "category": "knockout_mechanism",
+  "question": "Predict the hepatocyte consequence of CPT1A knockout.",
+  "gold_answer": "Mitochondrial long-chain fatty-acid oxidation is blocked; lipid accumulates, ketogenesis falls.",
+  "gold_source": "Schreurs et al., Biochim Biophys Acta 2010 (CPT1A)",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=CPT1A trained"
+ },
+ {
+  "id": "KO2-LDLR",
+  "category": "knockout_mechanism",
+  "question": "What is the expected plasma-relevant consequence of hepatocyte LDLR knockout?",
+  "gold_answer": "LDL particle clearance fails; plasma LDL rises (familial-hypercholesterolemia phenotype).",
+  "gold_source": "Brown & Goldstein, Science 1986",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=LDLR trained"
+ },
+ {
+  "id": "KO2-MBOAT7",
+  "category": "knockout_mechanism",
+  "question": "Knock out MBOAT7 in hepatocytes: which lipid pathway is affected?",
+  "gold_answer": "Phosphatidylinositol acyl-chain remodelling (Lands cycle), linked to MASLD risk.",
+  "gold_source": "Mancina et al., Gastroenterology 2016; Helsley et al., Cell Metab 2019",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=MBOAT7 trained"
+ },
+ {
+  "id": "KO2-ATP7B",
+  "category": "knockout_mechanism",
+  "question": "What cellular phenotype follows hepatocyte ATP7B loss?",
+  "gold_answer": "Copper accumulation with failure of biliary copper excretion (Wilson-disease mechanism).",
+  "gold_source": "Bull et al., Nat Genet 1993",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=ATP7B trained"
+ },
+ {
+  "id": "KO2-TGFB1",
+  "category": "knockout_mechanism",
+  "question": "Knocking out TGFB1 in the liver niche: what is lost?",
+  "gold_answer": "The dominant pro-fibrogenic signal driving stellate activation and ECM deposition.",
+  "gold_source": "Dooley & ten Dijke, Lab Invest 2012",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=TGFB1 trained"
+ },
+ {
+  "id": "KO2-STAT3",
+  "category": "knockout_mechanism",
+  "question": "Hepatocyte STAT3 knockout: which regenerative signal is abrogated?",
+  "gold_answer": "IL-6-driven acute-phase and regenerative priming response.",
+  "gold_source": "Cressman et al., Science 1996",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=STAT3 trained"
+ },
+ {
+  "id": "KO2-JAK2",
+  "category": "knockout_mechanism",
+  "question": "What hepatocyte pathway fails when JAK2 is knocked out?",
+  "gold_answer": "Cytokine (IL-6 family/growth-hormone) signal transduction via STATs.",
+  "gold_source": "Watowich et al., Annu Rev Cell Dev Biol 1996",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=JAK2 trained"
+ },
+ {
+  "id": "KO2-CTNNB1",
+  "category": "knockout_mechanism",
+  "question": "What happens to hepatic zonation when CTNNB1 (beta-catenin) is knocked out?",
+  "gold_answer": "Pericentral (zone-3) gene programs collapse; the liver takes on a periportal-like identity.",
+  "gold_source": "Benhamouche et al., Dev Cell 2006",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=CTNNB1 trained"
+ },
+ {
+  "id": "KO2-NOTCH1",
+  "category": "knockout_mechanism",
+  "question": "In the liver niche, what developmental process depends on NOTCH1/Notch signalling?",
+  "gold_answer": "Cholangiocyte specification and bile-duct morphogenesis.",
+  "gold_source": "Geisler & Strazzabosco, Compr Physiol 2015",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=NOTCH1 trained"
+ },
+ {
+  "id": "KO2-COL1A1",
+  "category": "knockout_mechanism",
+  "question": "Knock out COL1A1 in activated stellate cells: what changes?",
+  "gold_answer": "Loss of fibrillar type-I collagen deposition, the core scar component.",
+  "gold_source": "Friedman, Hepatology 2008",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=COL1A1 trained"
+ },
+ {
+  "id": "KO2-IL6",
+  "category": "knockout_mechanism",
+  "question": "Removing IL6 from the niche: which hepatocyte response is blunted?",
+  "gold_answer": "The acute-phase response and regenerative priming via IL-6R/gp130/STAT3.",
+  "gold_source": "Cressman et al., Science 1996",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=IL6 trained"
+ },
+ {
+  "id": "KO2-ACOX1",
+  "category": "knockout_mechanism",
+  "question": "Hepatocyte ACOX1 knockout: which organelle pathway is hit?",
+  "gold_answer": "Peroxisomal beta-oxidation of very-long-chain fatty acids.",
+  "gold_source": "Reddy & Hashimoto, Annu Rev Nutr 2001",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=ACOX1 trained"
+ },
+ {
+  "id": "KO2-DGAT2",
+  "category": "knockout_mechanism",
+  "question": "What happens to hepatocyte triglyceride synthesis when DGAT2 is knocked out?",
+  "gold_answer": "Terminal triglyceride synthesis falls; lipid-droplet formation and steatosis are reduced.",
+  "gold_source": "Stone et al., J Biol Chem 2004",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=DGAT2 trained"
+ },
+ {
+  "id": "KO2-ACACA",
+  "category": "knockout_mechanism",
+  "question": "Knock out ACACA (ACC1) in hepatocytes: what is the primary metabolic consequence?",
+  "gold_answer": "Malonyl-CoA production stops, blocking de novo lipogenesis and releasing CPT1A inhibition.",
+  "gold_source": "Mao et al., Proc Natl Acad Sci USA 2006",
+  "expected_tools": [
+   "knockout"
+  ],
+  "notes": "gene=ACACA trained"
+ }
+]

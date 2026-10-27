@@ -9,8 +9,13 @@ build/
 dist/
 .eggs/
 
-# local outputs
+# local outputs and secrets
 hepadiff_out*
 *_cells.npz
 *_delta.csv
+hepadiff_agent_runs/
+agent/runs/
+*.log
+.env
+.venv/
 !.gitkeep

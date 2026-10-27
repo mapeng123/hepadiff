@@ -10,6 +10,13 @@ dependencies:
   - numpy
   - pandas
   - scipy
+  - scikit-learn
   - pip
   - pip:
       - anndata
+      - transformers
+      - rdkit
+      - fastapi
+      - uvicorn
+      - requests
+      - openpyxl
