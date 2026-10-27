@@ -48,7 +48,17 @@ python -m pip install -e .
 
 ## Checkpoint
 
-The selected checkpoint is named `hepadiff_step155000.pt` in the commands below. **The checkpoint is not currently distributed through this repository.** Place a locally available copy in the working directory, or pass `--ckpt /path/to/checkpoint.pt`; the `HEPADIFF_CKPT` environment variable is also supported.
+The manuscript-selected **step-155000 core checkpoint** is distributed through [GitHub Release v0.2.0](https://github.com/mapeng123/hepadiff/releases/tag/v0.2.0):
+
+```bash
+curl -L -o hepadiff_step155000.pt \
+  https://github.com/mapeng123/hepadiff/releases/download/v0.2.0/hepadiff_step155000.pt
+```
+
+- File size: **277,136,013 bytes** (approximately 265 MiB)
+- SHA256: `d2c9d62538361f42213fae93861a1d50284343a2005c02dff6578a71fe33e1ef`
+
+Pass the downloaded file with `--ckpt /path/to/hepadiff_step155000.pt`; the `HEPADIFF_CKPT` environment variable is also supported. Chemical-interface weights and large expression matrices are not included in this release.
 
 The previous step-200000 checkpoint and one-step decoder described by older releases are not the configuration used for the current manuscript.
 
