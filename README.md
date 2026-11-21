@@ -42,7 +42,7 @@ All production weights and external zero-shot resources are distributed through 
 | `dili_vmost_ecfp4_final.pt` | vMost versus no-DILI-concern | 4,743,583 | `65c77aac56910c3d096cabec27474e6cff0cf6e0a5cd7652a5790a31fdd66e9b` |
 | `tggates_spectrum_chemberta_final.pt` | Dose-resolved 16,000-gene spectrum | 71,640,107 | `b010f3baaf3a9d40ac5a81366c1d27d1e8fca9ac9291c119fbbd143b65b1a638` |
 | `lincs_model_final_alldata.pt` | 978-gene LINCS spectrum | 9,792,117 | `a783f6c5f35e011a30dd264d2224e5189f778237ce7ce88be9b606961534098e` |
-| `hepadiff_zero_shot_assets.zip` | PPI/GenePT response profiles and support | 926,153,066 | `6d0dfdc7f75a6a569b45f71dddf7f43f9551376dc2b507004da13a6dd7d2bdb1` |
+| `hepadiff_zero_shot_assets.zip.part01`–`part06` | PPI/GenePT response profiles and support; six binary parts | 926,153,066 after joining | `6d0dfdc7f75a6a569b45f71dddf7f43f9551376dc2b507004da13a6dd7d2bdb1` for the joined ZIP |
 
 Example download:
 
@@ -51,8 +51,16 @@ curl -L -O https://github.com/mapeng123/hepadiff/releases/download/v1.0.0/hepadi
 curl -L -O https://github.com/mapeng123/hepadiff/releases/download/v1.0.0/dili_vmost_ecfp4_final.pt
 curl -L -O https://github.com/mapeng123/hepadiff/releases/download/v1.0.0/tggates_spectrum_chemberta_final.pt
 curl -L -O https://github.com/mapeng123/hepadiff/releases/download/v1.0.0/lincs_model_final_alldata.pt
-curl -L -O https://github.com/mapeng123/hepadiff/releases/download/v1.0.0/hepadiff_zero_shot_assets.zip
+for i in 01 02 03 04 05 06; do
+  curl -L -O "https://github.com/mapeng123/hepadiff/releases/download/v1.0.0/hepadiff_zero_shot_assets.zip.part${i}"
+done
+cat hepadiff_zero_shot_assets.zip.part01 hepadiff_zero_shot_assets.zip.part02 \
+    hepadiff_zero_shot_assets.zip.part03 hepadiff_zero_shot_assets.zip.part04 \
+    hepadiff_zero_shot_assets.zip.part05 hepadiff_zero_shot_assets.zip.part06 \
+    > hepadiff_zero_shot_assets.zip
 ```
+
+On Windows Command Prompt, join the parts with `copy /b hepadiff_zero_shot_assets.zip.part01+hepadiff_zero_shot_assets.zip.part02+hepadiff_zero_shot_assets.zip.part03+hepadiff_zero_shot_assets.zip.part04+hepadiff_zero_shot_assets.zip.part05+hepadiff_zero_shot_assets.zip.part06 hepadiff_zero_shot_assets.zip`.
 
 Verify checksums with `sha256sum FILE` on Linux/macOS or `Get-FileHash .\FILE -Algorithm SHA256` on Windows PowerShell.
 
@@ -128,7 +136,7 @@ Spectrum outputs contain a complete gene-level CSV and a metadata JSON. DILI sco
 
 ## External zero-shot KO module
 
-Unzip `hepadiff_zero_shot_assets.zip` into a directory containing `manifest.json`, `profiles.npy` and `support.npy`. The archive is approximately 926 MB compressed and 1.02 GB uncompressed.
+Join the six downloaded parts as shown above, verify the joined archive against `SHA256SUMS.txt`, and unzip `hepadiff_zero_shot_assets.zip` into a directory containing `manifest.json`, `profiles.npy` and `support.npy`. The joined archive is approximately 926 MB compressed and 1.02 GB uncompressed.
 
 Check routing and support:
 
