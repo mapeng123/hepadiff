@@ -162,6 +162,56 @@ def run_infer(args) -> None:
     print(f"Saved {args.out}_cells.npz and {args.out}_delta.csv")
 
 
+def run_chemical(args) -> None:
+    import json
+    import torch
+    from .chemical import predict_dili, predict_spectrum
+
+    device = "cuda" if torch.cuda.is_available() and not args.cpu else "cpu"
+    if args.interface == "dili":
+        result = predict_dili(args.smiles, args.weights, device)
+        text = json.dumps(result, indent=2, ensure_ascii=False)
+        if args.out:
+            with open(args.out, "w", encoding="utf-8") as handle:
+                handle.write(text + "\n")
+        print(text)
+        return
+    metadata, frame = predict_spectrum(
+        args.smiles, args.weights, args.interface, args.dose, device, args.encoder_path)
+    if args.out:
+        frame.to_csv(f"{args.out}.csv", index=False)
+        with open(f"{args.out}.json", "w", encoding="utf-8") as handle:
+            json.dump(metadata, handle, indent=2, ensure_ascii=False)
+        metadata["spectrum_csv"] = f"{args.out}.csv"
+    metadata["top_up_regulated"] = frame.nlargest(10, "predicted_response").to_dict("records")
+    metadata["top_down_regulated"] = frame.nsmallest(10, "predicted_response").to_dict("records")
+    print(json.dumps(metadata, indent=2, ensure_ascii=False))
+
+
+def run_zero_shot(args) -> None:
+    import json
+    import torch
+    from .zero_shot import ExternalZeroShot
+
+    checkpoint = torch.load(args.ckpt, map_location="cpu", weights_only=False)
+    module = ExternalZeroShot(args.assets, checkpoint, args.reference)
+    if args.info:
+        result = module.info()
+    else:
+        result = module.check_gene(args.gene)
+    if args.check_only or args.info:
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+        return
+    metadata, frame, arrays = module.predict(args.gene, args.cell)
+    frame.to_csv(f"{args.out}.csv", index=False)
+    np.savez_compressed(f"{args.out}.npz", **arrays)
+    with open(f"{args.out}.json", "w", encoding="utf-8") as handle:
+        json.dump(metadata, handle, indent=2, ensure_ascii=False)
+    metadata["delta_csv"] = f"{args.out}.csv"
+    metadata["mapped_state_npz"] = f"{args.out}.npz"
+    print(json.dumps(metadata, indent=2, ensure_ascii=False))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="hepadiff", description="HepaDiff virtual-liver inference")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -184,10 +234,35 @@ def main() -> None:
     infer.add_argument("--list-conditions", action="store_true")
     infer.add_argument("--list-compounds", action="store_true")
     infer.add_argument("--check-gene", metavar="GENE")
+
+    chemical = subparsers.add_parser("chemical", help="DILI classification or structure-derived spectra")
+    chemical.add_argument("--interface", choices=["dili", "tggates", "lincs"], required=True)
+    chemical.add_argument("--weights", required=True)
+    chemical.add_argument("--smiles", required=True)
+    chemical.add_argument("--dose", default="high", help="TG-GATEs: low, middle or high")
+    chemical.add_argument("--encoder-path", help="optional local ChemBERTa-77M-MTR directory")
+    chemical.add_argument("--cpu", action="store_true")
+    chemical.add_argument("--out", help="DILI JSON path, or spectrum output prefix")
+
+    zero = subparsers.add_parser("zero-shot", help="external PPI/GenePT knockout response mapping")
+    zero.add_argument("--assets", required=True, help="directory containing manifest.json, profiles.npy and support.npy")
+    zero.add_argument("--ckpt", default=DEFAULT_CKPT)
+    zero.add_argument("--reference", default=bundled("hepadiff_reference.npz"))
+    zero.add_argument("--gene", default="PNPLA3")
+    zero.add_argument("--cell", default="hepatocyte")
+    zero.add_argument("--out", default="hepadiff_zero_shot")
+    zero.add_argument("--check-only", action="store_true")
+    zero.add_argument("--info", action="store_true")
+
     args = parser.parse_args()
-    if args.n < 1 or args.batch < 1:
-        parser.error("--n and --batch must be positive")
-    run_infer(args)
+    if args.command == "infer":
+        if args.n < 1 or args.batch < 1:
+            parser.error("--n and --batch must be positive")
+        run_infer(args)
+    elif args.command == "chemical":
+        run_chemical(args)
+    elif args.command == "zero-shot":
+        run_zero_shot(args)
 
 
 if __name__ == "__main__":
