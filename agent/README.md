@@ -1,6 +1,6 @@
 # HepaDiff grounded agent and LiverBench v2
 
-This directory contains the REST tool server, evaluation runner and 343-question LiverBench v2 benchmark. The agent uses the same step-155000 core model and four-step unbiased decoder as the command-line release.
+This directory contains the REST tool server, evaluation runner and 343-question LiverBench v2 benchmark across 13 categories. The agent uses the same step-155000 core model and four-step unbiased decoder as the command-line release.
 
 ## Capability boundary
 

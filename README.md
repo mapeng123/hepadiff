@@ -58,6 +58,20 @@ curl -L -o hepadiff_step155000.pt \
 - File size: **277,136,013 bytes** (approximately 265 MiB)
 - SHA256: `d2c9d62538361f42213fae93861a1d50284343a2005c02dff6578a71fe33e1ef`
 
+Verify the downloaded file before inference:
+
+```bash
+sha256sum hepadiff_step155000.pt
+```
+
+On Windows PowerShell, use:
+
+```powershell
+Get-FileHash .\hepadiff_step155000.pt -Algorithm SHA256
+```
+
+The reported hash must match the SHA256 value above.
+
 Pass the downloaded file with `--ckpt /path/to/hepadiff_step155000.pt`; the `HEPADIFF_CKPT` environment variable is also supported. Chemical-interface weights and large expression matrices are not included in this release.
 
 The previous step-200000 checkpoint and one-step decoder described by older releases are not the configuration used for the current manuscript.
@@ -130,7 +144,7 @@ The core training run used batch size 96, AdamW with learning rate `2e-4`, OneCy
 
 ## Conversational agent and LiverBench v2
 
-See [`agent/README.md`](agent/README.md) for deployment. The benchmark contains **343 independently sourced questions** across 12 categories, including 40 out-of-vocabulary requests for which abstention is required. API keys are read from environment variables and are never stored in this repository.
+See [`agent/README.md`](agent/README.md) for deployment. The released LiverBench v2 contains **343 independently sourced questions across 13 categories**, including 40 out-of-vocabulary requests for which abstention is required. API keys are read from environment variables and are never stored in this repository.
 
 ## Citation
 
